@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
+import Navber from './Navbar'
 
 const Buy = () => {
 
@@ -16,7 +17,8 @@ const handelShow = ()=>{
 
 return (
 <>
-    <section className='h-[550px] bg-white'>
+<Navber />
+    <section className='h-[550px] bg-white '>
         <div className="container">
             <div className="item flex">
                 <div className="item-image w-[500px] h-[500px]">
@@ -47,7 +49,7 @@ return (
         </div>
     </section>
 
-    <footer className='bg-[#f2f4f8] '>
+    <footer className='bg-[#f2f4f8]  '>
         <div className="container">
             <div
                 className="specification mt-[50px] rounded-md w-full h-full bg-white font-lato text-[25px] text-black font-bold ">

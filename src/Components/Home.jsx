@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { singelProductData } from '../Slices/counterSlice'
+import Navber from './Navbar'
+import Footer from './Footer'
 
 const Home = () => {
 
@@ -38,6 +40,7 @@ const handelBuy =(id)=>{
 
 return (
 <>
+<Navber />
     <div className="container">
         <div className="main-content flex gap-4 flex-wrap justify-center pt-5">
             {
@@ -82,6 +85,7 @@ return (
             }
         </div>
     </div>
+    <Footer/>
 </>
 )
 }

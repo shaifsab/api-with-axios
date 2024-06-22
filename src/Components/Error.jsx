@@ -5,7 +5,7 @@ const Error = () => {
     <>
       <body className='bg-white'>
         <div className="min-h-screen flex items-center justify-center">
-          <img className='w-[500px] h-[500px]' src="https://i.ibb.co/0jv2HnP/reshot-illustration-404-error-page-not-found-YVJWLX75-FH.png" alt="error" />
+          <img className='' src="https://cdn.dribbble.com/userupload/6028083/file/original-3aa4ba97cfd2956f084570d638c4a9c2.gif" alt="error" />
         </div>
       </body>
     </>
